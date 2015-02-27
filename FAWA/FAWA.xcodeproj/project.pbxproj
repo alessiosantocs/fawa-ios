@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B02903A51AA102A900FBDF21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02903A41AA102A900FBDF21 /* AppDelegate.swift */; };
+		B02903A81AA102A900FBDF21 /* FAWA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B02903A61AA102A900FBDF21 /* FAWA.xcdatamodeld */; };
+		B02903AA1AA102A900FBDF21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02903A91AA102A900FBDF21 /* ViewController.swift */; };
+		B02903AD1AA102A900FBDF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02903AB1AA102A900FBDF21 /* Main.storyboard */; };
+		B02903AF1AA102A900FBDF21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02903AE1AA102A900FBDF21 /* Images.xcassets */; };
+		B02903B21AA102A900FBDF21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B02903B01AA102A900FBDF21 /* LaunchScreen.xib */; };
+		B02903BE1AA102A900FBDF21 /* FAWATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02903BD1AA102A900FBDF21 /* FAWATests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B02903B81AA102A900FBDF21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B02903971AA102A800FBDF21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B029039E1AA102A900FBDF21;
+			remoteInfo = FAWA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B029039F1AA102A900FBDF21 /* FAWA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAWA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02903A31AA102A900FBDF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02903A41AA102A900FBDF21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B02903A71AA102A900FBDF21 /* FAWA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FAWA.xcdatamodel; sourceTree = "<group>"; };
+		B02903A91AA102A900FBDF21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B02903AC1AA102A900FBDF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B02903AE1AA102A900FBDF21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B02903B11AA102A900FBDF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B02903B71AA102A900FBDF21 /* FAWATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FAWATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02903BC1AA102A900FBDF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02903BD1AA102A900FBDF21 /* FAWATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAWATests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B029039C1AA102A900FBDF21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02903B41AA102A900FBDF21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B02903961AA102A800FBDF21 = {
+			isa = PBXGroup;
+			children = (
+				B02903A11AA102A900FBDF21 /* FAWA */,
+				B02903BA1AA102A900FBDF21 /* FAWATests */,
+				B02903A01AA102A900FBDF21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B02903A01AA102A900FBDF21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B029039F1AA102A900FBDF21 /* FAWA.app */,
+				B02903B71AA102A900FBDF21 /* FAWATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B02903A11AA102A900FBDF21 /* FAWA */ = {
+			isa = PBXGroup;
+			children = (
+				B02903A41AA102A900FBDF21 /* AppDelegate.swift */,
+				B02903A91AA102A900FBDF21 /* ViewController.swift */,
+				B02903AB1AA102A900FBDF21 /* Main.storyboard */,
+				B02903AE1AA102A900FBDF21 /* Images.xcassets */,
+				B02903B01AA102A900FBDF21 /* LaunchScreen.xib */,
+				B02903A61AA102A900FBDF21 /* FAWA.xcdatamodeld */,
+				B02903A21AA102A900FBDF21 /* Supporting Files */,
+			);
+			path = FAWA;
+			sourceTree = "<group>";
+		};
+		B02903A21AA102A900FBDF21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B02903A31AA102A900FBDF21 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B02903BA1AA102A900FBDF21 /* FAWATests */ = {
+			isa = PBXGroup;
+			children = (
+				B02903BD1AA102A900FBDF21 /* FAWATests.swift */,
+				B02903BB1AA102A900FBDF21 /* Supporting Files */,
+			);
+			path = FAWATests;
+			sourceTree = "<group>";
+		};
+		B02903BB1AA102A900FBDF21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B02903BC1AA102A900FBDF21 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B029039E1AA102A900FBDF21 /* FAWA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02903C11AA102A900FBDF21 /* Build configuration list for PBXNativeTarget "FAWA" */;
+			buildPhases = (
+				B029039B1AA102A900FBDF21 /* Sources */,
+				B029039C1AA102A900FBDF21 /* Frameworks */,
+				B029039D1AA102A900FBDF21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FAWA;
+			productName = FAWA;
+			productReference = B029039F1AA102A900FBDF21 /* FAWA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B02903B61AA102A900FBDF21 /* FAWATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02903C41AA102A900FBDF21 /* Build configuration list for PBXNativeTarget "FAWATests" */;
+			buildPhases = (
+				B02903B31AA102A900FBDF21 /* Sources */,
+				B02903B41AA102A900FBDF21 /* Frameworks */,
+				B02903B51AA102A900FBDF21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B02903B91AA102A900FBDF21 /* PBXTargetDependency */,
+			);
+			name = FAWATests;
+			productName = FAWATests;
+			productReference = B02903B71AA102A900FBDF21 /* FAWATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B02903971AA102A800FBDF21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = FAWA;
+				TargetAttributes = {
+					B029039E1AA102A900FBDF21 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B02903B61AA102A900FBDF21 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B029039E1AA102A900FBDF21;
+					};
+				};
+			};
+			buildConfigurationList = B029039A1AA102A900FBDF21 /* Build configuration list for PBXProject "FAWA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B02903961AA102A800FBDF21;
+			productRefGroup = B02903A01AA102A900FBDF21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B029039E1AA102A900FBDF21 /* FAWA */,
+				B02903B61AA102A900FBDF21 /* FAWATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B029039D1AA102A900FBDF21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02903AD1AA102A900FBDF21 /* Main.storyboard in Resources */,
+				B02903B21AA102A900FBDF21 /* LaunchScreen.xib in Resources */,
+				B02903AF1AA102A900FBDF21 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02903B51AA102A900FBDF21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B029039B1AA102A900FBDF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02903AA1AA102A900FBDF21 /* ViewController.swift in Sources */,
+				B02903A81AA102A900FBDF21 /* FAWA.xcdatamodeld in Sources */,
+				B02903A51AA102A900FBDF21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02903B31AA102A900FBDF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02903BE1AA102A900FBDF21 /* FAWATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B02903B91AA102A900FBDF21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B029039E1AA102A900FBDF21 /* FAWA */;
+			targetProxy = B02903B81AA102A900FBDF21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B02903AB1AA102A900FBDF21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B02903AC1AA102A900FBDF21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B02903B01AA102A900FBDF21 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B02903B11AA102A900FBDF21 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B02903BF1AA102A900FBDF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B02903C01AA102A900FBDF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B02903C21AA102A900FBDF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FAWA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B02903C31AA102A900FBDF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FAWA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B02903C51AA102A900FBDF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FAWATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FAWA.app/FAWA";
+			};
+			name = Debug;
+		};
+		B02903C61AA102A900FBDF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FAWATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FAWA.app/FAWA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B029039A1AA102A900FBDF21 /* Build configuration list for PBXProject "FAWA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02903BF1AA102A900FBDF21 /* Debug */,
+				B02903C01AA102A900FBDF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B02903C11AA102A900FBDF21 /* Build configuration list for PBXNativeTarget "FAWA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02903C21AA102A900FBDF21 /* Debug */,
+				B02903C31AA102A900FBDF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B02903C41AA102A900FBDF21 /* Build configuration list for PBXNativeTarget "FAWATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02903C51AA102A900FBDF21 /* Debug */,
+				B02903C61AA102A900FBDF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B02903A61AA102A900FBDF21 /* FAWA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B02903A71AA102A900FBDF21 /* FAWA.xcdatamodel */,
+			);
+			currentVersion = B02903A71AA102A900FBDF21 /* FAWA.xcdatamodel */;
+			path = FAWA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B02903971AA102A800FBDF21 /* Project object */;
+}
